@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Weather Station</title>
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.switch/3.3.2/css/bootstrap3/bootstrap-switch.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bootstrap.switch/3.3.2/js/bootstrap-switch.min.js"></script>
+	<script src="sctipt.js"></script>
+	
+</head>
+
+<body>
+		<div class="container text-center">
+  Round
+  <br>
+  <span id="count">--</span>
+  <div id="rgby">
+  
+    <div class="simon green" id="green"></div>
+    <div class="simon red" id="red"></div>
+ 
+
+    <div class="simon yellow" id="yellow"></div>
+    <div class="simon blue" id="blue"></div>
+  </div>
+  <div id="center">
+    <button class="btn btn-secondary" id="start">Start</button>
+    <button class="btn btn-secondary" id="reset">Reset</button>
+      <div>Strict Mode
+      <br>
+      <input id="strict-switch" type="checkbox" data-size="mini" data-on-text="On" data-off-text="Off">
+      </div>
+  </div>
+  <div>
+    <div id="audio"></div>
+    <div id="modal"></div>
+  </div>
+</div>
+<footer class="text-center">Created by Damian Błaszczak</footer>
+</body>
+</html>
